@@ -1,0 +1,54 @@
+Gerecht
+Gerechtcode PK
+Gerecht
+1
+-
+1 of meer
+Subgerecht
+Gerechtcode FK
+Subgerechtcode PK
+Subgerecht
+1
+-
+1 of meer
+menuitems
+subgerechtcode fk
+menuitemcode PK
+menuitem
+prijs
+1 of meer
+-
+0 of meer
+bestelling
+Datum
+Tijd
+Tafel 
+menuitemcode fk
+aantal
+prijs
+1
+-
+1
+Bon
+datum
+tijd
+tafel
+prijs
+
+klant
+klantid pk
+klantnaam
+telefoon
+1 en alleen 1
+-
+1 of meer
+reserveringen
+datum
+tijd
+tafel
+klantId FK
+AantalPersonen
+1 en alleen 1
+-
+1 of meer
+bestellingen
